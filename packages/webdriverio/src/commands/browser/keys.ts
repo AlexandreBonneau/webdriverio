@@ -26,7 +26,7 @@ import { checkUnicode } from '../../utils/index.js'
         await $('#username').setValue('anonymous')
 
         // copies text from an input element
-        await browser.keys([Key.Ctrl, 'a', 'c])
+        await browser.keys([Key.Ctrl, 'a', 'c'])
 
         // inserts text from clipboard into input element
         await $('#username').click() // make input active element
